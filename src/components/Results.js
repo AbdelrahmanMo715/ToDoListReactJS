@@ -6,6 +6,8 @@ function Results() {
     const TOTAL_TASKS = tasks.length;
     const COMPLETED_TASKS = tasks.filter((task) =>task.completed === true).length;
     const REMAINING_TASKS = TOTAL_TASKS - COMPLETED_TASKS;
+    
+ if (TOTAL_TASKS === 0 ) return null;
   return (
     <div className={styles.results}>
         <p>All ({TOTAL_TASKS})</p>
