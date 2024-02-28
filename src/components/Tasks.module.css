@@ -1,0 +1,26 @@
+.tasks{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+.tasks li{
+    padding: 10px;
+    background-color: cadetblue;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+:global(.completed){
+    background-color: green !important;
+   
+    transition: 0.3s;
+}
+:global(.completed) span{
+    text-decoration: line-through;
+}

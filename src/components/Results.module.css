@@ -1,0 +1,16 @@
+.results{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    top: 0;
+    transform: translate(-3%,-54%);
+}
+.results p{
+    padding: 10px;
+    background-color: rgb(4, 131, 135);
+    width: 105px;
+    border-radius: 8px;
+    color: #fff;
+    
+}

@@ -1,0 +1,23 @@
+.App{
+    max-width: 600px;
+    margin: 150px auto;
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 20px 20px 50px;
+    text-align: center;
+    box-shadow: 0px 0px 12px 3px #908d8d;
+    border-radius: 8px;
+     min-height: 231px;
+}
+/* .App button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+} */
+.newBtn{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+}

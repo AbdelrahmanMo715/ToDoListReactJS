@@ -1,0 +1,31 @@
+.btn{
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.new{
+    background-color: cadetblue;
+    border: 1px solid #333;
+}
+.new:hover{
+    background-color: rgb(68, 141, 143);
+}
+.delete{
+    background-color: tomato;
+    padding:3px;
+    border-radius: 2px;
+}
+.complete{
+    background-color: rgb(2, 168, 2);
+    padding:3px;
+    border-radius: 2px;
+}
+.add{
+    background-color: rgb(2, 168, 2);
+}
+.add:hover{
+    background-color:  rgb(1, 122, 1);
+}
