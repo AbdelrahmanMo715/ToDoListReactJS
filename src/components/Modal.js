@@ -14,6 +14,7 @@ function handleSubmit(e){
 
 function handleAddTask(){
 const newTask = {id:Date.now(),title,completed:false}
+if (title == "") return;
 SetTasks((tasks) => [...tasks , newTask]);
 setIsVisable(false);
 }
